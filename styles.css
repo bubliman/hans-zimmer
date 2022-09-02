@@ -399,11 +399,13 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
     padding: .25em;
     
 }
-/* .main-footer ul {
-    
-}  */
+.main-footer ul {
+    margin-left:35%;    
+} 
 .main-footer li {
     display:inline;
+    margin-left:40px;
+
     
 }
 #footer-disclaimer {
@@ -417,4 +419,21 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 }
 #footer-disclaimer a:hover{
     color:gray;
+}
+a .no-underline {
+    text-decoration: none;
+}
+.youtube-logo-image {
+    width:100px;
+}
+.spotify-logo-image {
+    width:75px;
+    margin-bottom: 12px;
+}
+.facebook-logo-image {
+    width:75px;
+    margin-bottom: 12px;
+}
+.facebook-logo {
+    vertical-align: middle;
 }
